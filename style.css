@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+
+}
+/* faixa preta no topo */
+.faixa-preta{
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.faixa-preta > a {
+    color: rgb(255, 255, 255);
+}
+
+/* navegação */
+.caixa-navegador{
+    background-color: rgb(240, 239, 239);
+    padding: 5px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.lista-navegador{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-iterativo{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.menu-iterativo:hover{
+    color: rgb(99, 99, 99);
+
+}
+
+.caixa-login{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+button{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+button > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ button > a:hover{
+    color: rgb(240, 238, 238);
+} 
+
+/* começo do conteudo */
+/* parte de cima */
+
+.conteudo-pricipal{
+   height: 580px;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    gap: 120px;
+}
+
+.conteudo-principal-escrito{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.conteudo-principal-escrito > h1{
+    width: 400px;
+    font-size: 40px;
+}
+
+.conteudo-principal-escrito > p {
+    margin-top: 5px;
+    color: rgb(104, 104, 104);
+}
+
+
+.caixa-checkmark{
+    margin-top: 20px;
+}
+
+.checkmark{
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.conteudo-principal-login{
+    display: flex;
+    gap: 10px;
+}
+
+.conteudo-principal-login > input{
+    padding: 15px;
+    border-radius: 5px;
+    border-color: rgba(194, 193, 193, 0.89);
+    box-shadow: none;   
+}
+
+.button-email{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+
+input::placeholder{
+ color: rgba(0, 0, 0, 0.5);
+}
+
+.Hero-imagem{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.logomarca-paceiras{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+    gap: 47px;
+}
+
+.logomarca-paceiras > img {
+    width: 90px;
+    height: 20px;
+    
+}
+
+/* sessão segurança */
+
+.sessao-seguranca{
+    background-color: rgb(240, 239, 239);
+    width: 1050px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 5px;
+    display: flex;
+}   
+
+.sessao-de-seguranca-escrito{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;  
+}
+
+.titulo-sessao-seguranca{
+    width: 200px;
+}
+
+.paragrafo-sessao-seguranca{
+    width: 400px;
+    margin-top: 10px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 20px;
+}
+
+.link-sessao-seguranca{
+    color: rgb(0, 0, 0);
+}
+
+.link-sessao-seguranca:hover{
+    color: rgb(99, 99, 99);
+}
+
+.img-sessao-seguranca{
+    width: 800px;
+    margin-left: 200px;
+}
+
+/* sessão editor */
+
+.sessao-editor{
+    display: flex;
+    margin-top:40px ;
+    margin-left: 150px;   
+}
+
+.img-editor{
+    width: 600px;
+}
+
+.sessao-filho-editor{
+    margin-top: 100px;
+}
+
+.paragrafo-sessao-filho-editor{
+    width: 420px;
+    margin-top: 5px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 20px;
+}
+
+.link-sessao-filho-editor{
+    color: rgb(0, 0, 0);
+}
+
+/* rodapé */
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    
+}
+
+.caixa-rodape{
+    display: flex;
+    justify-content: space-around;
+} 
+
+.titulo-rodape{
+    color: rgb(212, 210, 210);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.paragrafo-primeira-caixa{
+    color: rgb(116, 112, 112);
+    width: 330px;
+}
+
+.paragrafo-rodape{
+    color: rgb(116, 112, 112);
+    text-decoration: none;
+}
+
+.paragrafo-rodape:hover{
+    color: rgb(255, 255, 255);
+}
